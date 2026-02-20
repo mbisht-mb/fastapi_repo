@@ -18,7 +18,7 @@ app.add_middleware(
 
 @app.get("/")
 async def root():
-    return {"message": "Hello from FastAPI on DigitalOcean! 🚀"}
+    return {"message": "Hello from FastAPI developed by Manjari Bisht on DigitalOcean for Enterprise Software Class! Wohooo!! Project launched!"}
 
 
 @app.get("/health")
